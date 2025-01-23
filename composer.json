@@ -1,0 +1,28 @@
+{
+  "name": "abacus/files",
+  "description": "A package for files in laravel",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Abacus\\Files\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Sebastian Vlasceanu"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "laravel/framework": ">=8.0",
+    "php": ">=8.0"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Abacus\\Files\\FileServiceProvider"
+      ]
+    }
+  }
+}
